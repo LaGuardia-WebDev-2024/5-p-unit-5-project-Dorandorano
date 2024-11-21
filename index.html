@@ -29,123 +29,161 @@ Select ONE Additional Feature to Add
     <style>
 
 
-                      body {
-                        background-image: url("https://cdnb.artstation.com/p/assets/images/images/081/100/419/large/ko-k-asset.jpg?1729373786");
+                             body {
+                               background-image: url("https://cdnb.artstation.com/p/assets/images/images/081/100/419/large/ko-k-asset.jpg?1729373786");
 
-                      }
+                             }
 
-                      body { background-size: cover;
-                        background-repeat: no-repeat;
-                        filter: brightness (-8);
-                        text-align: center;
-                        padding: 20px;
-                        background-attachment: fixed;}
-
-
-
-                      #home1 {
-                        color: ##f7f7f2;
-                  font-family: "Cinzel Decorative", serif;
-            font-weight: 400;
-            font-style: normal;
-                        font-size: 100px;
-                        letter-spacing: -2px;
-                        word-spacing: -1.8px;
-                        color: #f7f7f2;
-                        font-weight: 400;
-                        font-style: italic;
-                        font-variant: normal;
-                        text-transform: capitalize;
-                      }
-
-                      .icons {
-                        width: 50px
-                      }
-
-                      p { color: ##f7f7f2;
-                  font-family: "Cinzel Decorative", system-ui;
-                  font-style: normal;
-                        font-size: 20px;
-                        letter-spacing: 1px;
-                        word-spacing: -1.8px;
-                        color: #f7f7f2;
-                        font-weight: 10px;
-                        font-style:
-                        font-variant: normal;
-                        text-transform: capitalize}
-
-                      #click {
-                        font-style: italic ;
-                      }
+                             body { background-size: cover;
+                               background-repeat: no-repeat;
+                               filter: brightness (-8);
+                               text-align: center;
+                               padding: 20px;
+                               background-attachment: fixed;
+            transition: width 2s linear 1s;}
 
 
-                      #star {
-                        font-family: "Cinzel Decorative", serif;
-                        font-style: normal;
-                        font-size: 50px;
-                        letter-spacing: 1px;
-                        word-spacing: -1.8px;
-                        color: #f7f7f2;
-                        font-weight: 10px;}
 
-                      #3starz {
-                        font-family: "Cinzel Decorative", serif;
-                        font-size: 50px;
-                        letter-spacing: 1px;
-                        word-spacing: -1.8px;
-                        color: #f7f7f2;
-                        font-weight: 10px}
+                             #home1 {
+                               color: ##f7f7f2;
+                         font-family: "Cinzel Decorative", serif;
+                   font-weight: 400;
+                   font-style: normal;
+                               font-size: 100px;
+                               letter-spacing: -2px;
+                               word-spacing: -1.8px;
+                               color: #f7f7f2;
+                               font-weight: 400;
+                               font-style: italic;
+                               font-variant: normal;
+                               text-transform: capitalize;
+                             }
 
-            ul {
-      
-               font-family: "Cinzel Decorative", serif;
-              font-size: 85%;
-        list-style-type: none;
-        margin: 2;
-        padding: 0;
-        overflow: hidden;
-        background-color: ;
+                             .icons {
+                               width: 50px
+                             }
+
+                             p { color: ##f7f7f2;
+                         font-family: "Cinzel Decorative", system-ui;
+                         font-style: normal;
+                               font-size: 20px;
+                               letter-spacing: 1px;
+                               word-spacing: -1.8px;
+                               color: #f7f7f2;
+                               font-weight: 10px;
+                               font-style:
+                               font-variant: normal;
+                               text-transform: capitalize}
+
+                             #click {
+                               font-style: italic ;
+                             }
+
+
+                             #star {
+                               font-family: "Cinzel Decorative", serif;
+                               font-style: normal;
+                               font-size: 50px;
+                               letter-spacing: 1px;
+                               word-spacing: -1.8px;
+                               color: #f7f7f2;
+                               font-weight: 10px;}
+
+                             #3starz {
+                               font-family: "Cinzel Decorative", serif;
+                               font-size: 50px;
+                               letter-spacing: 1px;
+                               word-spacing: -1.8px;
+                               color: #f7f7f2;
+                               font-weight: 10px}
+
+                   ul {
+
+                      font-family: "Cinzel Decorative", serif;
+                     font-size: 85%;
+               list-style-type: none;
+               margin: 50px;
+               padding: 10px;
+               overflow: hidden;
+               background-color: ;
+             }
+
+             li {
+               float: center;
+             }
+
+             li {
+               opacity: 50%;
+               display: block;
+               color: white;
+               text-align: center;
+               padding: 14px 16px;
+               text-decoration: none;
+             }
+
+             li:hover {
+               background-color: #665640;
+               opacity: 100%;
+               radius: 40px;
+                     }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
       }
 
-      li {
-        float: center;
-      }
-
-      li {
-        opacity: 50%;
-        display: block;
+      .dropdown-content {
+font-family: arial;
+text-transform: lowercase;
+                               font-size: 12px;
+                               letter-spacing: 1px;
+                               word-spacing: 1.2px;
+                               color: #f7f7f2;
+                               font-weight: 10%;
+                               font-style: italic;
+                               font-variant: normal;
+        
+        display: none;
         color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+        background-color: #806c50;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
       }
 
-      li:hover {
-        background-color: #665640;
-        opacity: 100%;
-        radius: 40px;
+      .dropdown:hover .dropdown-content {
+        display: block;
       }
-      
-      
-      
     </style>
   </head>
 
   <body>
-    
-    <div>
-      
-    
-    <ul>
-       <li>home</li>
-      <li>contact</li>
-      <li>about</li>
-    </ul>
-    
-      </div>
-      
-    <br id="abc">
-    
+    <div id="navbar">
+      <ul>
+        <li id="home">home</li>
+
+        <div class="dropdown">
+          <li id="contact">contact</li>
+          <div class="dropdown-content">
+            business email!: doryeondorano@gmail.com
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <li id="about">about</li>
+
+          <div class="dropdown-content">
+            I'm an aspiring game+animation artist! My favorite music artists are
+            Ethel Cain, Malice Mizer, Tyler the Creator, skz, the Smiths, w2e,
+            and lamp! I really like alien stage and arcane atm!
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <br id="abc" />
+
     <img
       src="https://64.media.tumblr.com/1e1e8de7b34be50b3303868ae9e7806f/62368bcc20f6923b-07/s400x600/ca655acdfb51e507d6755c7a2248e61113bf0614.gifv"
     />
