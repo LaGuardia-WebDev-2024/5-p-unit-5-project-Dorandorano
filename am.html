@@ -31,9 +31,10 @@
       }
       
       
+      
       .colors {
-        background: #252b07 ;
-        background-blend-mode: overlay;
+        background: #617058 ;
+        background-blend-mode: luminosity ;
       }
       
       
@@ -50,32 +51,43 @@
       #hoho {
         font-family: "Julius Sans One", sans-serif;
         font-size: 20px;
-        color: #ad9d63;
+        ;
       }
+      
+      .title-container {
+        background: rgba(0, 0, 0, 0, 0);
+        color: #fcffe3;
+      filter: opacity(50%)
+        
+      }
+      
+      .title {color: #fcffe3;
+      filter: opacity(90%)}
 
       h1 {
-        color: #968442;
+        color: white;
         font-weight: 1;
         font-style: normal;
         font-size: 50px;
         letter-spacing: 3px;
         word-spacing: 3px;
-        color: #968442;
         font-weight: 100;
         font-style: normal;
         font-variant: normal;
         text-transform: capitalize;
+        mix-blend-mode: screen;
       }
 
       #roundedcorner1 {
         border-radius: 30px 80px;
         width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
       }
 
       .divider1 {
         width: 450px;
         filter: opacity(50%);
-        mix-blend-mode: multipy;
+        filter: hue-rotate(360deg);
       }
       
       
@@ -104,12 +116,16 @@
 
   <body class="colors" style= "background-image:url(https://images.unsplash.com/photo-1510074232337-05d50fa189ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)">
     <body>
-      <h1 class="title">-Aurum Mare-</h1>
+      
+      <div class= "title-container">
+         <h1 class="title">-Aurum Mare-</h1>
+      
+     
 
       <h2 id="hoho">Video Game Pitch</h2>
       <br />
       <br />
-
+</div>
       <img
         class="divider1"
         src="https://64.media.tumblr.com/6dd2656a89f41ad7531412d7033c7c1f/4ad239c14967179b-cc/s250x400/fc59bd42e82d57108c85ab6d00885ddd7715ce5b.gifv"
@@ -129,31 +145,6 @@
         src="https://64.media.tumblr.com/e0c908f2af98ca7adf3710d0224fb777/def3f1e16177cd1d-b9/s100x200/3f6561d962f7512412d0b2fa6e43e65b13a32ca0.gifv"
       />
 
-      <table style="width: 50%" align="center">
-        <tr>
-          <th>SUMMARY</th>
-          <th colspan="2">bubub</th>
-        </tr>
-        <tr>
-          <td>
-            In a post-apocalyptic world where the earth has been flooded, the
-            remaining survivors
-          </td>
-          <td>glub glub</td>
-          <td>
-            <img
-                 class= "kissyfish"
-              src="https://media.tenor.com/WGvvznDuGCkAAAAM/kissing-fish.gif" style= "filter: opacity(50%)"
-            />
-          </td>
-        </tr>
-        <tr>
-          <td>I was inspired by games like resident evil</td>
-          <td>yuh</td>
-          <td>bubub</td>
-        </tr>
-      </table>
     </body>
   </body>
 </html>
-background-image: url("https://images.unsplash.com/photo-1510074232337-05d50fa189ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
