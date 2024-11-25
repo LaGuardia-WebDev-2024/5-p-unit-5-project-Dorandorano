@@ -37,7 +37,9 @@
         background-blend-mode: luminosity ;
       }
       
-      
+      .wiwiparent {
+        filter: hue-rotate(30deg);
+      }
 
       #wiwi {
         filter: opacity(45%);
@@ -86,8 +88,13 @@
 
       .divider1 {
         width: 450px;
-        filter: opacity(50%);
-        filter: hue-rotate(360deg);
+        filter: hue-rotate(50deg);
+      }
+      
+      
+      .beepbeep {
+        
+        filter: opacity(30%);
       }
       
       
@@ -122,15 +129,22 @@
       
      
 
-      <h2 id="hoho">Video Game Pitch</h2>
+      <h2 id="hoho">Video Game Pitch <br>
+        AUrum mare is "golden sea" in latin!</h2>
       <br />
       <br />
 </div>
-      <img
+      
+      <div class= "beepbeep">
+        
+        <img
         class="divider1"
         src="https://64.media.tumblr.com/6dd2656a89f41ad7531412d7033c7c1f/4ad239c14967179b-cc/s250x400/fc59bd42e82d57108c85ab6d00885ddd7715ce5b.gifv"
       />
 
+        
+      </div>
+      
       <p>
         <img
           src="https://cdnb.artstation.com/p/assets/images/images/080/743/567/large/ko-k-finn-concept-sheet.jpg?1728401143"
@@ -139,11 +153,15 @@
       </p>
 
       <br />
-
-      <img
+<div class= "wiwiparent">
+  
+  <img
         id="wiwi"
         src="https://64.media.tumblr.com/e0c908f2af98ca7adf3710d0224fb777/def3f1e16177cd1d-b9/s100x200/3f6561d962f7512412d0b2fa6e43e65b13a32ca0.gifv"
       />
+  
+      </div>
+      
 
     </body>
   </body>
